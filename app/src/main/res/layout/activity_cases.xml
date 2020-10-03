@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cases">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/them">
+        <include
+            layout="@layout/toolbar_layout"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/weightcase"
+                android:layout_width="150dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:hint="Weight"
+                android:padding="8dp"
+
+                />
+
+            <EditText
+                android:id="@+id/heightcase"
+                android:layout_width="164dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:hint="Height"
+                android:padding="8dp"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp">
+
+            <RadioGroup
+                android:id="@+id/radioGroupforgender"
+                android:layout_width="149dp"
+                android:layout_height="89dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="329dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Gender" />
+
+                <RadioButton
+                    android:id="@+id/malecase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/femalecase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Female" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/pressurecase"
+                android:layout_width="161dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="329dp">
+
+
+                <TextView
+                    android:layout_width="79dp"
+                    android:layout_height="25dp"
+                    android:text="  Pressure" />
+
+                <RadioButton
+                    android:id="@+id/pressureyescase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/pressurenocase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp">
+            <RadioGroup
+                android:id="@+id/smoker"
+                android:layout_width="151dp"
+                android:layout_height="89dp"
+
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="329dp">
+
+
+                <TextView
+                    android:layout_width="71dp"
+                    android:layout_height="23dp"
+                    android:text="  Smoker" />
+
+
+                <RadioButton
+                    android:id="@+id/smokeryescase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/smokernocase"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="No" />
+
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/drinker"
+                android:layout_width="160dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="329dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:text="  Drinker" />
+
+
+                <RadioButton
+                    android:id="@+id/drinkeryescase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/drinkernocase"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="No" />
+
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp">
+            <RadioGroup
+                android:id="@+id/athlete"
+                android:layout_width="152dp"
+                android:layout_height="89dp"
+
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="329dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:text="  Athlete" />
+
+
+                <RadioButton
+                    android:id="@+id/athleteyescase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/athletenocase"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="No" />
+
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/diabetic"
+                android:layout_width="159dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="329dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:text="  Diabetic" />
+
+
+                <RadioButton
+                    android:id="@+id/diabeticyescase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/diabeticnocase"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="No" />
+
+
+            </RadioGroup>
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button2"
+            android:text="Update"
+            android:id="@+id/updatecase"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="110dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

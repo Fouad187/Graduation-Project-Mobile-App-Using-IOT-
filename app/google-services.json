@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "477763768197",
+    "firebase_url": "https://heart-b0708.firebaseio.com",
+    "project_id": "heart-b0708",
+    "storage_bucket": "heart-b0708.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477763768197:android:96a6b52506cd6a21ee3eec",
+        "android_client_info": {
+          "package_name": "com.example.myheart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477763768197-2d7c1v60dldf2e86u144dsgndl620dlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsI1TA-3ks6-66cwPKhJbOAjHau7vkl58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477763768197-2d7c1v60dldf2e86u144dsgndl620dlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

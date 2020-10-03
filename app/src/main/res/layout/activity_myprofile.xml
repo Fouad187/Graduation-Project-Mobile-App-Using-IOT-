@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Myprofile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/meme"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            app:civ_border_color="@color/them"
+            app:civ_border_width="5dp" />
+
+        <TextView
+            android:id="@+id/nameinprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="fouad ahmed"
+            android:textSize="25dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+
+            />
+
+        <ImageView
+            android:layout_width="469dp"
+            android:layout_height="134dp"
+            android:src="@drawable/p"
+            />
+
+        <EditText
+            android:id="@+id/profilemail"
+            android:layout_width="323dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit"
+            android:drawableLeft="@drawable/eme"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/profilepassword"
+            android:layout_width="327dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit"
+            android:drawableLeft="@drawable/pass"
+            android:drawablePadding="10dp"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+        <EditText
+            android:id="@+id/profildoctoremail"
+            android:layout_width="323dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit"
+            android:drawableLeft="@drawable/doctormail"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="normal"/>
+        <EditText
+            android:id="@+id/profaddress"
+            android:layout_width="323dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit"
+            android:drawableLeft="@drawable/addressprof"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="normal"/>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/button"
+            android:text="save"
+            android:textColor="#fff" />
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

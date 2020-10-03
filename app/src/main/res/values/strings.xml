@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Heart</string>
+    <string name="my_text"> <u>New User ? Register Here.</u>.</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string name="Login_Preference">com.example.myheart_login_preference</string>
+    <string name="Login_statues_preference">com.example.myheart_login_statues_preference</string>
+
+</resources>

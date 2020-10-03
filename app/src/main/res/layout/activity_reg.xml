@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/them"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="40dp"
+                >
+
+                <EditText
+                    android:id="@+id/fname"
+                    android:layout_width="157dp"
+                    android:layout_height="41dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edit"
+                    android:ems="10"
+                    android:hint="First Name"
+
+                    android:inputType="textPersonName"
+                    android:padding="8dp"
+                    tools:layout_editor_absoluteX="28dp"
+                    tools:layout_editor_absoluteY="75dp" />
+
+                <EditText
+                    android:id="@+id/lname"
+
+                    android:layout_width="157dp"
+                    android:layout_height="41dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edit"
+                    android:ems="10"
+
+                    android:hint="Last Name"
+                    android:inputType="textPersonName"
+                    android:padding="8dp"
+                    tools:layout_editor_absoluteX="209dp"
+                    tools:layout_editor_absoluteY="75dp" />
+
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/email"
+
+                android:layout_width="325dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:ems="10"
+                android:layout_marginLeft="40dp"
+
+                android:hint="E-Mail"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="136dp" />
+
+            <EditText
+                android:id="@+id/password"
+
+                android:layout_width="325dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="196dp" />
+
+            <EditText
+                android:id="@+id/age"
+
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:ems="10"
+                android:hint="Select Date"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="270dp" />
+
+
+
+
+            <EditText
+                android:id="@+id/doctormail"
+                android:layout_width="322dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:ems="10"
+                android:hint="Doctor Mail"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="425dp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="322dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:ems="10"
+                android:hint="No / Street / City"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="496dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="40dp">
+
+                <EditText
+                    android:id="@+id/weight"
+                    android:layout_width="150dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit"
+                    android:hint="Weight"
+                    android:padding="8dp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/height"
+                    android:layout_width="164dp"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit"
+                    android:hint="Height"
+                    android:padding="8dp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="40dp">
+
+                <RadioGroup
+                    android:id="@+id/radioGroupforgender"
+                    android:layout_width="149dp"
+                    android:layout_height="89dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit"
+                    tools:layout_editor_absoluteX="28dp"
+                    tools:layout_editor_absoluteY="329dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  Gender" />
+
+                    <RadioButton
+                        android:id="@+id/male"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Male" />
+
+                    <RadioButton
+                        android:id="@+id/female"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Female" />
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/pressure"
+                    android:layout_width="161dp"
+                    android:layout_height="89dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit"
+                    tools:layout_editor_absoluteX="28dp"
+                    tools:layout_editor_absoluteY="329dp">
+
+
+                    <TextView
+                        android:layout_width="79dp"
+                        android:layout_height="25dp"
+                        android:text="  Pressure" />
+
+                    <RadioButton
+                        android:id="@+id/pressureyes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/pressureno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No" />
+
+
+                </RadioGroup>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp">
+            <RadioGroup
+                android:id="@+id/smoker"
+                android:layout_width="151dp"
+                android:layout_height="89dp"
+
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="329dp">
+
+
+                <TextView
+                    android:layout_width="71dp"
+                    android:layout_height="23dp"
+                    android:text="  Smoker" />
+
+
+                <RadioButton
+                    android:id="@+id/smokeryes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/smokerno"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="No" />
+
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/drinker"
+                android:layout_width="160dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="329dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:text="  Drinker" />
+
+
+                <RadioButton
+                    android:id="@+id/drinkeryes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/drinkerno"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="No" />
+
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp">
+            <RadioGroup
+                android:id="@+id/athlete"
+                android:layout_width="152dp"
+                android:layout_height="89dp"
+
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="329dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:text="  Athlete" />
+
+
+                <RadioButton
+                    android:id="@+id/athleteyes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/athleteno"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="No" />
+
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/diabetic"
+                android:layout_width="159dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="329dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:text="  Diabetic" />
+
+
+                <RadioButton
+                    android:id="@+id/diabeticyes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/diabeticno"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="No" />
+
+
+            </RadioGroup>
+        </LinearLayout>
+            <EditText
+                android:id="@+id/security"
+                android:layout_width="322dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:ems="10"
+                android:hint="Security..What's your favorite subject?"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="496dp" />
+            <Button
+                android:id="@+id/Submit"
+                android:layout_width="267dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/button2"
+                android:text="Submit"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
