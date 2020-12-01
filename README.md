@@ -2,7 +2,8 @@
 IoT based Heart Detection Using Android java and python 
 
 # What App do ? 
-1- Measure Heart Rate by Pulse Sensor and Predict his case Normal or Abnormal                                                                                                                   
+1- Measure Heart Rate by Pulse Sensor and Predict his case Normal or Abnormal                                                                                                       
+
 2- Send Email with Report about user case to The Doctor
 
 3- Alert User if his case Abnormal by sending notification
